@@ -2530,7 +2530,7 @@ void main(void)
     while( 1 )
     {
         disp7seg( cont );
-        delay(500);
+        delay(1000);
         cont = ++cont % 16;
     }
     return;

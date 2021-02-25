@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V2.00 build -1524193055 
-                                                                                               Thu Feb 25 15:46:05 2021
+                                                                                               Thu Feb 25 16:42:50 2021
 
 Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 20180527130849
      1  0000                     
@@ -812,7 +812,7 @@ Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 201805271
    750                           __CFG_MCLRE$OFF equ 0x0
    751  0000                     global __CFG_LVP$OFF
    752                           __CFG_LVP$OFF equ 0x0
-   753  0000                     	file	"C:\Users\20185206\AppData\Local\Temp\s1i4."
+   753  0000                     	file	"C:\Users\20185206\AppData\Local\Temp\sdak."
    754                           	line	#
    755                           psect cinit,class=CODE,delta=2
    756                           global start_initialization
@@ -828,7 +828,7 @@ Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 201805271
    766                           _digitos7seg:
    767  0020                            ds      16
    768  0020                     
-   769                           	file	"C:\Users\20185206\AppData\Local\Temp\s1i4."
+   769                           	file	"C:\Users\20185206\AppData\Local\Temp\sdak."
    770                           	line	#
    771                           global btemp
    772                           psect inittext,class=CODE,delta=2
@@ -1085,11 +1085,11 @@ Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 201805271
   1023  079C  120A  118A  2779  120A  118A  	line	40
   1024                           	
   1025                           l689:	
-  1026  07A1                     ;main.c: 40:         delay(500);
-  1027                           	movlw	0F4h
-  1028  07A1  30F4               	movwf	(delay@t)
-  1029  07A2  00F0               	movlw	01h
-  1030  07A3  3001               	movwf	((delay@t))+1
+  1026  07A1                     ;main.c: 40:         delay(1000);
+  1027                           	movlw	0E8h
+  1028  07A1  30E8               	movwf	(delay@t)
+  1029  07A2  00F0               	movlw	03h
+  1030  07A3  3003               	movwf	((delay@t))+1
   1031  07A4  00F1               	fcall	_delay
   1032  07A5  120A  118A  2762  120A  118A  	line	41
   1033                           	
@@ -1554,7 +1554,7 @@ EEDATA             100      0       0       0        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.00 build -1524193055 
-Symbol Table                                                                                   Thu Feb 25 15:46:05 2021
+Symbol Table                                                                                   Thu Feb 25 16:42:50 2021
 
                        pc 0002                        l11 079B                        l20 0763  
                       l12 07B4                        l21 0778                        l13 07B5  
