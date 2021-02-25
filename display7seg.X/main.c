@@ -28,6 +28,18 @@
 #include "disp7seg.h"
 
 void main(void)
+
 {
-   
+    char cont = 0;
+    
+    disp7seg_init();
+    
+    while( 1 )
+    {
+        disp7seg( cont );
+        delay(500);
+        cont = ++cont % 16;
+    }
+    return;
 }
+   
